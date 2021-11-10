@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Party Inviter
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h1 class="Title" id="text1">Guest Inviter</h1>
+            <hr>
+            <span>
+                <input class="Input" id="input1" placeholder="Name Goes Here">
+                <button class="Button" id="button1" onclick="invite()">Invite</button>
+                <button class="Button" id="button2" onclick="remove()">Delete List</button>
+            </span>
+            <div class="Text" id="div1"></div>
+            <hr>
+            <h2 class="Subtitle" id="text2">Guest List</h2>
+            <br>
+            <button class="Button" id="button3" onclick="display()">Display</button>
+            <div class="Text" id="div2"></div>
+            <button class="Button" id="button4" onclick="sort()">Sort</button>
+            <hr>
+            <h3 class="Subtitle" id="text3">Search Name</h3>
+            <span>
+                <input class="Input" id="input2" placeholder="Search By Name">
+                <button class="Button" id="button5" onclick="search()">Search</button>
+            </span>
+            <div class="Text" id="div3"></div>
+        </center>
+    </body>
+</html>
